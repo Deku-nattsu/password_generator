@@ -3,7 +3,7 @@ function Generate() {
   let lower = "abcdefghijklmnopqrstuvwxyz";
   let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let numbers = "0123456789";
-  let symbols = "+$%{;*! @";
+  let symbols = "+$%{};*!@#&-=?()[]_";
   if (this.document.getElementById("lowercase").checked) dict += lower;
   if (this.document.getElementById("uppercase").checked) dict += upper;
   if (this.document.getElementById("numbers").checked) dict += numbers;
